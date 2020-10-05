@@ -41,7 +41,7 @@ namespace MathCalculatorTests
         {
             MathCalculator calculator = new MathCalculator();
 
-            var result = calculator.Multiply(5, 3);
+            var result = calculator.Multiply(Five, Three);
 
             Assert.Equal(15, result);
         }
@@ -51,7 +51,7 @@ namespace MathCalculatorTests
         {
             MathCalculator calculator = new MathCalculator();
 
-            var result = calculator.Divide(5, 3);
+            var result = calculator.Divide(Five, Three);
 
             Assert.Equal(1, result);
         }
