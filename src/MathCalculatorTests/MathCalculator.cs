@@ -7,17 +7,17 @@
             return a + b;
         }
 
-        public int Subtract(int a, int b)
+        public int Sub(int a, int b)
         {
             return a - b;
         }
 
-        public int Multiply(int a, int b)
+        public int Mult(int a, int b)
         {
             return a * b;
         }
 
-        public int Divide(int a, int b)
+        public int Div(int a, int b)
         {
             return a/b;
         }
