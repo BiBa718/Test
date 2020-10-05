@@ -20,7 +20,7 @@ namespace MathCalculatorTests
             MathCalculator calculator = new MathCalculator();     
 
             // Act
-            var result = calculator.Sum(5, 3);
+            var result = calculator.Sum(Five, Three);
 
             // Assert
             Assert.Equal(8, result);
@@ -31,7 +31,7 @@ namespace MathCalculatorTests
         {
             MathCalculator calculator = new MathCalculator();
 
-            var result = calculator.Subtract(5, 3);
+            var result = calculator.Subtract(Five, Three);
 
             Assert.Equal(2, result);
         }
