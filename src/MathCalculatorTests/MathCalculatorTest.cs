@@ -45,7 +45,7 @@ namespace MathCalculatorTests
         }
 
         [Fact]
-        public void WhenNegSubFiveAndThreeThaenGotEight()
+        public void WhenSubMinusFiveAndThreeThanGotMinusEight()
         {
             // Arrange
             MathCalculator calculator = new MathCalculator();
