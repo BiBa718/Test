@@ -16,7 +16,14 @@ namespace MathCalculatorTests
         [Fact]
         public void WhenSumFiveAndThreeThenGotEight()
         {
+            // Arrange
             MathCalculator calculator = new MathCalculator();     
+
+            // Act
+            var result = calculator.Sum(5, 3);
+
+            // Assert
+            Assert.Equal(8, result);
         }
     }
 }
