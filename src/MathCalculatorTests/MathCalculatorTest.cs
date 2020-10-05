@@ -4,7 +4,7 @@ using MathCalculator;
 
 namespace MathCalculatorTests
 {
-    public class MathCalculatorTests
+    public class MathCalculatorTest
     {
         private const int Ten = 10; 
         private const int Six = 6;
@@ -14,12 +14,12 @@ namespace MathCalculatorTests
         private const int Two = 2;
         private const int Zero = 0;
 
+        MathCalculator calculator = new MathCalculator();      
+
         [Fact]
         public void WhenSumFiveAndThreeThenGotEight()
         {
-            MathCalculator calculator = new MathCalculator();
-
-            
+                
         }
     }
 }
