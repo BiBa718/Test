@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MathCalculator
+﻿namespace MathCalculatorTests
 {
     public class MathCalculator
     {
