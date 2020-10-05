@@ -27,13 +27,33 @@ namespace MathCalculatorTests
         }
 
         [Fact]
-        public void WhenSubtractFiveAndThreeThenGotTwo()
+        public void WhenSubFiveAndThreeThenGotTwo()
         {
             MathCalculator calculator = new MathCalculator();
 
             var result = calculator.Subtract(5, 3);
 
             Assert.Equal(2, result);
+        }
+
+        [Fact]
+        public void WhenMultFiveAndThreeThenGotTwo()
+        {
+            MathCalculator calculator = new MathCalculator();
+
+            var result = calculator.Multiply(5, 3);
+
+            Assert.Equal(15, result);
+        }
+
+        [Fact]
+        public void WhenDivFiveAndThreeThenGotTwo()
+        {
+            MathCalculator calculator = new MathCalculator();
+
+            var result = calculator.Divide(5, 3);
+
+            Assert.Equal(1, result);
         }
     }
 }
