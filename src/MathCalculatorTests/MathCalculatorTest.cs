@@ -25,5 +25,15 @@ namespace MathCalculatorTests
             // Assert
             Assert.Equal(8, result);
         }
+
+        [Fact]
+        public void WhenSubtractFiveAndThreeThenGotTwo()
+        {
+            MathCalculator calculator = new MathCalculator();
+
+            var result = calculator.Subtract(5, 3);
+
+            Assert.Equal(2, result);
+        }
     }
 }
